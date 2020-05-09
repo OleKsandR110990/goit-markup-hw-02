@@ -1,0 +1,83 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый текст #FFFFFF */
+/* акцент фон или текст #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --pimary-white-color: #FFFFFF;
+  --fon-color: #F5F4FA;
+}
+
+body {
+  background-color: var(--pimary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+
+/* site nav */
+.site-nav .list {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: var(--title-text-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.feature-list .title{
+  color: var(--title-text-color);
+}
+
+/* Button page 1 */
+.button.one {
+  color: var(--accent-color);
+  background-color: var(--pimary-white-color);
+
+}
+.button.one.primary {
+  color: var(--pimary-white-color);
+  background-color: var(--accent-color);
+
+}
+
+.button.one.secondary {
+  color: var(--accent-color);
+  background-color: var(--pimary-white-color);
+
+}
+
+/* Button page 2 */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--pimary-white-color);
+
+}
+.button.primary {
+  color: var(--pimary-white-color);
+  background-color: var(--accent-color);
+
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--fon-color);
+
+}
