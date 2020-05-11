@@ -39,6 +39,10 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
+.logo .accent {
+  color: var(--accent-color);
+}
+
 .f .logo {
   color: var(--pimary-white-color);
   font-family: Raleway, cursive;
