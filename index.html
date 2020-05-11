@@ -4,15 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <!-- Шапка сайта -->
     <body>
         <header>
-            <nav>
-                <a href="">Web Studio</a>
+            <nav class="h">
 
-                <p><a id="WebStudio"></a></p>
+                <p class="logo">Web Studio</p>
             
                 <ul class="site-nav list">
                     <li><a href="" class="list link">Студия</a></li>
@@ -37,9 +41,9 @@
     <div>
         <img src="./images/header_img.svg" alt width="1600">
         <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <ul class="avto-nav list">
-            <li><a href="" class="button one primary">Заказать услугу</a></li>
+        <h1 class="hero-title">Эффективные решения </br> для вашего бизнеса</h1>
+        <ul class="avto-h list">
+            <li><button type="button" class="button one primary">Заказать услугу</button></li>
         </ul>
         </section>
     </div> 
@@ -54,28 +58,28 @@
 
             <img src="./images/antenna1.svg" alt width="70" />
             <h3 class="title">Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <p class="info">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
             <li>
                 <a href=""></a>
 
             <img src="./images/clock1.svg" alt width="70" />
             <h3 class="title">Пунктуальность</h3>
-            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            <p class="info">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
             <li>
                 <a href=""></a>
 
             <img src="./images/diagram1.svg" alt width="70" />
             <h3 class="title">Планирование</h3>
-            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            <p class="info">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
             <li>
                 <a href=""></a> 
 
             <img src="./images/astronaut1.svg" alt width="70" />
             <h3 class="title">Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <p class="info">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
 
@@ -87,27 +91,24 @@
 
         <h2 class="section-title">Чем мы занимаемся</h2>
 
-        <ul>
+        <ul class="application">
             <li>
                 <img src="./images/img.svg" alt="Ноутбук">
 
                 <a href=""></a>
-<!-- как разметить белый текст? -->
-            <p>Десктопные приложения</p>
+            <p class="app-text">Десктопные приложения</p>
             </li>
             <li>
                 <img src="./images/box.svg" alt="Мобильный телефон">
 
                 <a href=""></a>
-<!-- как разметить белый текст? -->
-            <p>Мобильные приложения</p>
+            <p class="app-text">Мобильные приложения</p>
             </li>
             <li>
                 <img src="./images/img(1).svg" alt="Монетор">
 
                 <a href=""></a>
-<!-- как разметить белый текст? -->
-            <p>Дизайнерские решения</p>
+            <p class="app-text">Дизайнерские решения</p>
             </li>
         </ul>
 
@@ -115,7 +116,7 @@
 
         <!-- Команда -->
 
-        <section class="feature-list">
+        <section class="tim-list">
                 
                 <h2 class="section-title">Наша команда</h2>
                 
@@ -234,15 +235,15 @@
 
         <!-- Футер -->
 
-        <footer>
-                <p><a href="">WebStudio</a></p>
+        <footer class="f">
+                <p class="logo">Web Studio</p>
                 <address>
-                    г. Киев, пр-т Леси Украинки, 26 <br/>
-                    info@example.com <br/>
-                    +38 099 111 11 11
+                    <p class="address">г. Киев, пр-т Леси Украинки, 26 </p>
+                    <p class="transparent">info@example.com</p>
+                    <p class="transparent">+38 099 111 11 11</p>
                 </address>
 
-                <p>присоединяйтесь</p>
+                <p class="big-t">присоединяйтесь</p>
 
                 <ul>
                     <li><a href="http://instagram" aria-label="Ссылка на instagram">instagram</a></li>
@@ -251,14 +252,14 @@
                     <li><a href="http://linkedin" aria-label="Ссылка на linkedin">linkedin</a></li>
                 </ul>
 
-                <p>подписаться на рассылку</p>
+                <p class="big-t">подписаться на рассылку</p>
 
                 <form action="#">
                     <p><input value="E-mail"></p>
                     <p><a href="">Подписаться</a></p>
                 </form>
 
-                <p>2020 | Developed by GoIT Students</p>
+                <p class="finish">2020 | Developed by GoIT Students</p>
 
         </footer>
     </body>
